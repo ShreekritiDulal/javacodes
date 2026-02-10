@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "java_1c3fabc4"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListExample",
+            "request": "launch",
+            "mainClass": "ArrayListExample",
+            "projectName": "java_1c3fabc4"
+        },
+        {
+            "type": "java",
+            "name": "PaymentDemo",
+            "request": "launch",
+            "mainClass": "PaymentDemo",
+            "projectName": "java_1c3fabc4"
+        },
+        {
+            "type": "java",
+            "name": "Overriding",
+            "request": "launch",
+            "mainClass": "Overriding",
+            "projectName": "java_1c3fabc4"
+        },
+        {
+            "type": "java",
+            "name": "DiamondProblemDemo",
+            "request": "launch",
+            "mainClass": "DiamondProblemDemo",
+            "projectName": "java_1c3fabc4"
+        },
+        {
+            "type": "java",
+            "name": "AbstractCalculatorApp",
+            "request": "launch",
+            "mainClass": "AbstractCalculatorApp",
+            "projectName": "java_1c3fabc4"
+        },
+        {
+            "type": "java",
+            "name": "finalmain",
+            "request": "launch",
+            "mainClass": "finalmain",
+            "projectName": "java_1c3fabc4"
+        },
+        {
+            "type": "java",
+            "name": "Main3",
+            "request": "launch",
+            "mainClass": "Main3",
+            "projectName": "java_1c3fabc4"
+        },
+        {
+            "type": "java",
+            "name": "Main1",
+            "request": "launch",
+            "mainClass": "Main1",
+            "projectName": "java_1c3fabc4"
+        },
+        {
+            "type": "java",
             "name": "Static",
             "request": "launch",
             "mainClass": "Static",

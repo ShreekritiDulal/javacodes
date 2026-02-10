@@ -1,27 +1,23 @@
-import java.util.Scanner;
-public class methodoverloading{
-    
-    static int sum(int a){
-        int add= a+6;
-        return add;
+//Method overloading
+class sum{
+    int add(int a, int b){
+        return a+b;
     }
 
-    static int sum(int a, int b){
-        int add= a+b;
-        return add;
+    double add(double a, double b){
+        return a+b;
     }
 
+    int add(int a, int b, int c){
+        return a+b+c;
+    }
+}
+
+public class methodOverloading{
     public static void main(String[] args){
-        Scanner scanner= new Scanner(System.in);
-
-        System.out.println("Enter the value of a and b respectively");
-        int a= scanner.nextInt();
-        int b= scanner.nextInt();
-
-        System.out.println("1st method: "+ sum(a));
-        System.out.println("2nd method: "+ sum(a,b));
-
-        scanner.close();
-
+        sum obj= new sum();
+        System.out.println(obj.add(2,3));
+        System.out.println(obj.add(4.2,6.3));
+        System.out.println(obj.add(3,4,6));
     }
 }
